@@ -3,16 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="QR gen/style.css"> 
-    <title>QR Gen</title>
+
+    <title>QR Generator</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <div class="container">
-    <h1>QR code Generator</h1>
-    <label for="url">Paste URL:</label>
-    <input type="url">
-    <button>Generate QR</button>
+
+        <h1>QR Code Generator</h1>
+
+        <p>Enter a URL to generate your QR code</p>
+
+        <input
+            type="text"
+            id="url"
+            placeholder="https://example.com"
+        >
+
+        <button id="generateBtn">
+            Generate QR
+        </button>
+
+        <div id="qrContainer"></div>
+
     </div>
-    <script src="QR gen/index.js"></script>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
