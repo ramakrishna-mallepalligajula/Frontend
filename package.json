@@ -1,7 +1,10 @@
 {
+  "type": "module",
+  "scripts": {
+    "start": "node QR_gen/backend/server.js"
+  },
   "dependencies": {
-    "fs": "^0.0.1-security",
-    "inquirer": "^14.2.1",
+    "express": "^5.1.0",
     "qr-image": "^3.2.0"
   }
 }
